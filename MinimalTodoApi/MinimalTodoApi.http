@@ -1,0 +1,14 @@
+@MinimalTodoApi_HostAddress = https://localhost:7014
+
+GET {{MinimalTodoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MinimalTodoApi_HostAddress}}/todos
+
+###
+
+POST {{MinimalTodoApi_HostAddress}}/todos
+
+###
